@@ -1,0 +1,42 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--slate-300);
+    overflow: hidden;
+    height: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+
+}
+.qr_code{
+    
+    width: 20%;
+    height: 40%;
+    margin-top: 20%;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: var(--white);
+    border-radius: 9px;
+    
+    
+    
+}
+.qr_code img{
+    width: 100%;
+    height: auto;
+    border-radius: 9px;
+    overflow: auto;
+}
+.h3{
+    font-size: 15px;
+    align-content: center;
+    font-weight: normal;
+}
+
